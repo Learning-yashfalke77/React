@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.RollDie {
+    display: flex;
+    flex-direction: column;
+}
+
+.RollDie button{
+    align-self: center;
+    width: 10em;
+    padding: 0.8em 0em;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    transition: all ease-in 0.2s;
+}
+
+.RollDie button:hover{
+    background-color: indigo;
+    cursor: pointer;
+}

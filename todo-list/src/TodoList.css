@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+.TodoList {
+  margin: 4rem auto;
+  padding: 2rem 3rem 3rem;
+  background-color: #fff;
+  color: black;
+  box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 600px;
+}
+
+.TodoList ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.TodoList h1{
+    font-family: 'Arvo', serif;
+    font-weight: normal;
+    font-size: 2.6rem;
+    border-bottom: 1px solid silver;
+}
+
+.TodoList h1 span {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3px;
+    margin-top: 0.2rem;
+}

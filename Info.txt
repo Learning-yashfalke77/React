@@ -1,0 +1,16 @@
+React is a javascript library for building interfaces, we use beacue it simplies for making interfaces
+
+React is all about components
+
+reusable building blocks in your user interface
+
+react uses declarative approach
+
+Create React app:
+npx create-react-app [Project name]
+cd [project Name] (if needed)
+npm start (To start development server)
+
+------------------------------------------------------------- colt ----------------------------------
+JSX - javascript syntax extension / javascript XML
+Helps in Html looking code in js (Can be done using babel)

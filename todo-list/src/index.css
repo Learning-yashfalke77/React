@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to right top, #053037, #005a60, #008984, #00b9a0, #12ebb2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+

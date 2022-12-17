@@ -1,0 +1,12 @@
+.WiseSquare{
+    margin: auto;
+    width: 10em;
+    height: 10em;
+    background-color: blue;
+    transition: all ease-in 0.3s;
+    font-size: 3rem;
+}
+
+.WiseSquare:hover{
+    background-color: indigo;
+}

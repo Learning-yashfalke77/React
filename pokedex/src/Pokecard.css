@@ -1,0 +1,45 @@
+.Pokecard-winner {
+  width: 15vw;
+  background-color: #b7efc5;
+  padding: 1rem 3rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.Pokecard-loser {
+  width: 15vw;
+  background-color: #f8d7da;
+  padding: 1rem 3rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.Pokecard-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: #eceff1;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+img {
+  transition: all ease 500ms;
+}
+
+img:hover {
+  transform: scale(1.5);
+  opacity: 0.7;
+}
+
+.Pokecard-id{
+    background-color: #4d4d4d;
+    border-radius: 30px;
+    color: white;
+    padding: 0.1rem 0.3rem;
+}

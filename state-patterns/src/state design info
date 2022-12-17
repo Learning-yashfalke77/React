@@ -1,0 +1,6 @@
+---------------------------------------- State should be as minimum as possible ----------------------------------
+1)The data which are not changing like name, date of birth should not put in State
+2)The data which are dervied from something should also not be putted in State eg age
+3) state should live on parent (Parent should be more stateful)
+4) The data flow should be downwards from statefull parent to mroe non-stateful-child
+
